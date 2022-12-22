@@ -1,0 +1,350 @@
+body, html
+{
+	width: 100%;
+	margin: 0;
+	background: lightgrey;
+}
+
+#index_header
+{
+	background: black;
+	width: 100%;
+	float: left;
+	font-family: Arial;
+	color: white;
+}
+
+#tbl_header
+{
+	margin-left: 5%;
+	float: left;
+}
+
+#follow_label
+{
+	margin-right: 20px;
+	font-size: 15px;
+}
+
+.fa {
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fas
+{
+    color: black;
+}
+
+.fa-facebook, .fa-instagram, .fa-youtube
+{
+	color: black;
+	background: white;
+	border-radius: 40px;
+}
+
+.material-icons
+{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+.link_notif
+{
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	font-size: 15px;
+	margin-left: 25px;
+}
+
+.div_header
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 0%;
+}
+
+.third_tbl
+{
+	float: left;
+	margin-left: 5%;
+	width: 100%;
+}
+
+.main_tbl
+{
+	width: 95%;
+}
+
+#logo_header
+{
+	width: 150px;
+	height: 75px;
+	margin-right:0%;
+	pointer-events: none;
+}
+
+#search_bar
+{
+	width: 100%;
+	height: 35px;
+	border-radius: 20px 0px 0px 20px;
+  margin-left: 0px;
+  margin-top: -10%;
+  border: none;
+}
+
+#image_td
+{
+	width: 20%;
+}
+
+#search_icon
+{
+	font-size: 30px;
+	color: black;
+}
+
+#search_icon:hover
+{
+	cursor: pointer;
+}
+
+#search_td
+{
+	width: 60%;
+}
+
+#div_search_box
+{
+	background: white;
+	border-radius: 10px;
+	width: 90%;
+	height: 40px;
+}
+
+#search_box
+{
+   width: 95%;
+   height: 100%;
+   border-radius: 20px;
+   border: none;
+   font-size: 15px;
+   margin-left: 10px;
+   text-align: center;
+}
+
+#search_box:focus
+{
+   outline: none;
+   text-align: center;
+   color: #383838;
+}
+
+#table_search_box
+{
+	width: 100%;
+}
+
+#search_box_td
+{
+	width: 100%;
+}
+
+#submit_search
+{
+	border: none;
+	background: none;
+}
+
+#cart_icon
+{
+	color: white;
+	font-size: 30px;
+	margin-top: -10px;
+}
+
+#cart_td
+{
+	width: 100%;
+}
+
+#ads_section
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#container
+{
+	width: 100%;
+}
+
+.ads_class
+{
+	width: 300px;
+	height: 200px;
+	margin: 10px 10px 0px 0px;
+	box-shadow: 10px 10px 20px 0px;
+}
+
+.categories_class, .brand_class
+{
+	width: 100px;
+	height: 140px;
+	margin: 10px 10px 0px 0px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px 0px;
+}
+
+#index_label_head
+{
+	font-family: fantasy;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 1%;
+	color: #383838;
+}
+
+#categories_index
+{
+	padding: 20px;
+}
+
+#tbl_categories, #tbl_brand
+{
+	background: white;
+	width: 100%;
+	padding: 20px 0px 40px 0px;
+	border-radius: 0px;
+}
+
+#tbl_main_categories
+{
+	width: 100%;
+}
+
+#label_cat, #label_brand
+{
+	font-family: sans-serif;
+	color: #383838;
+	font-size: 15px;
+	float: left;
+	margin-left: 5%;
+	text-shadow: 5px 5px 5px;
+}
+
+#logout_btn
+{
+	margin-left: 20px;
+	font-family: Arial;
+	border: solid 1px;
+	color: red;
+	border-color: red;
+	background: black;
+	margin-top: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+	width: 100px;
+}
+
+#log_btn
+{
+	margin-left: 0px;
+	font-family: Arial;
+	border: solid 1px;
+	color: white;
+	border-color: white;
+	background: black;
+	margin-top: 5px;
+	font-size: 13px;
+	height: 20px;
+	width: 100px;
+}
+
+#footer_div
+{
+	background: black;
+	height: 10px;
+}
+
+#footer_div2
+{
+	color: #585858;
+	width: 100%;
+	font-size: 15px;
+}
+
+#footer_div2_2
+{
+	color: #585858;
+	width: 100%;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+
+#footer_tbl
+{
+	padding: 0px 10px 0px 10px;
+	font-family: Arial;
+	width: 100%;
+}
+
+#footer_label
+{
+	margin-bottom: 30px;
+	float: left;
+}
+
+#footer_label2
+{
+	margin-bottom: -10px;
+	font-family: sans-serif;
+}
+
+#footer_label_img
+{
+	height: 60px;
+	width: 60px;
+}
+
+#footer_label_img2
+{
+	height: 60px;
+	width: 120px;
+}
+
+#c_right
+{
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+#c_right_table
+{
+	padding: 0px 50px 2% 50px;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+#img_lbl
+{
+	position: absolute;
+}
+
+ul
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+}

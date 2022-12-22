@@ -1,0 +1,334 @@
+body, html
+{
+	margin: 0;
+	background: lightgrey;
+	width: 100%;
+}
+
+#prev_pro
+{
+	width: 100%;
+	justify-content: center;
+}
+
+#mini_nav, #tbl_nav
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#btn_back
+{
+   float: left;
+   margin-left:60px;
+   font-family: Arial;
+   font-size: 15px;
+   background: white;
+   color: black;
+   border: solid 1px;
+   width: 100px;
+   box-shadow: 0px 0px 10px black;
+   border-color: white;
+}
+
+#btn_home
+{
+   float: right;
+   margin-right:60px;
+   font-family: Arial;
+   font-size: 15px;
+   background: white;
+   color: black;
+   border: solid 1px;
+   width: 100px;
+   box-shadow: 0px 0px 10px black;
+   border-color: white;
+}
+
+#tbl_pro
+{
+	height: 100%;
+	margin-left: 2%;
+}
+
+#img_act_pro
+{
+	height: 400px;
+	width: 400px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 5%;
+	background: white;
+	box-shadow: 0px 0px 20px black;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#content
+{
+	display: none;
+}
+
+li
+{
+
+}
+
+#tbl_li
+{
+	margin-left: 0px;
+}
+
+#name_product
+{
+	font-size: 30px;
+	font-family: fantasy;
+}
+
+#brand_product
+{
+	font-size: 15px;
+	font-family: fantasy;
+}
+
+#desc_product
+{
+	font-size: 20px;
+	font-family: Arial;
+}
+
+#descval_product
+{
+	font-size: 15px;
+	font-family: Arial;
+	margin-left: 50px;
+}
+
+#inside_tbl
+{
+	width: 100%;
+}
+
+#img_li
+{
+	margin-right: 100px;
+}
+
+#price_text
+{
+	font-family: fantasy;
+}
+
+.the_imgs
+{
+	height: 100px;
+	width: 100px;
+}
+
+.btns, .btns_con
+{
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+}
+
+.ord_count
+{
+	width: 40px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#num_order, #num_order_buy
+{
+	margin: 10px;
+	height: 25px;
+	width: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#btn_add
+{
+   background: white;
+   color: orange;
+   border: solid 1px orange;
+}
+
+#btn_buy
+{
+   background: white;
+   color: green;
+   border: solid 1px green;
+}
+
+#btn_log
+{
+   background: white;
+   color: black;
+   border: solid 1px black;
+}
+
+#btns_ul, #order_ul
+{
+	justify-content: center;
+}
+
+#btn_minus, #btn_minus_buy
+{
+   background: white;
+   border: solid 1px red;
+   color: red;
+}
+
+#btn_plus, #btn_plus_buy
+{
+   background: white;
+   border: solid 1px blue;
+   color: blue;
+}
+
+#cart_nav, #buy_nav
+{
+	display: none;
+}
+
+#session_order
+{
+	width: 90%;
+	text-align: center;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: Arial;
+	color: green;
+	border: solid 2px lime;
+	border-radius: 10px;
+	display: none;
+}
+
+#session_order_cart
+{
+	width: 90%;
+	text-align: center;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: Arial;
+	color: yellow;
+	border: solid 2px yellow;
+	border-radius: 10px;
+	display: none;
+}
+
+#label_review
+{
+	font-family: fantasy;
+	font-size: 30px;
+	margin-left: 10%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#add_review
+{
+	width: 100%;
+	height: 100px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#review_li
+{
+     width: 60%;
+}
+
+#review_ul
+{
+	justify-content: center;
+}
+
+#review_holder
+{
+	font-family: Arial;
+	margin-top: 30px;
+}
+
+.stars
+{
+	font-size: 50px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.res_stars
+{
+	font-size: 25px;
+	color: yellow;
+	margin-bottom: 10px;
+}
+
+#confirm_review
+{
+	color: black;
+	border: solid 1px black;
+	background: white;
+	width: 200px;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+#date_posted_label
+{
+	font-family: Arial;
+}
+
+#review_par
+{
+	font-family: Arial;
+}
+
+#tbl_rev, #li_rev
+{
+	width: 100%;
+}
+
+#td_content
+{
+	justify-content: center;
+}
+
+#username_label
+{
+	font-family: fantasy;
+}
+
+#star_rate
+{
+	font-size: 25px;
+	color: yellow;
+}
+
+.labels
+{
+	font-family: Arial;
+}

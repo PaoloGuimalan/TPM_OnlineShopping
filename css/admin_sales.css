@@ -1,0 +1,127 @@
+.head
+{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 30px;
+}
+
+.logout
+{
+	float: right;
+	margin-bottom: 50px;
+}
+
+ul
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	list-style-type: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background: white;
+	box-shadow: 0px 0px 20px black;
+	margin-bottom: 10px;
+	height: auto;
+}
+
+#wrap_cont
+{
+    box-shadow: 0px 0px 20px yellow;
+}
+
+#wrap_on_d
+{
+    box-shadow: 0px 0px 20px lime;
+}
+
+#wrap_d
+{
+	box-shadow: 0px 0px 20px green;
+}
+
+#wrap_c
+{
+	box-shadow: 0px 0px 20px red;
+}
+
+.imgs
+{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+#tbl_wrap
+{
+	float: left;
+	margin-right: 20px;
+}
+
+#tbl_wrap_bottom
+{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#cust_name
+{
+	font-family: fantasy;
+	font-size: 15px;
+}
+
+#cust_address
+{
+	font-family: Arial;
+}
+
+#cust_product
+{
+	font-family: fantasy;
+}
+
+#con_ord
+{
+	background: yellow;
+	color: white;
+	border: solid 1px yellow;
+	font-family: Arial;
+	height: 25px;
+	margin-right: 10px;
+}
+
+#m_s_delivered
+{
+	background: lime;
+	color: white;
+	border: solid 1px lime;
+	font-family: Arial;
+	height: 25px;
+	margin-right: 10px;
+}
+
+#can_ord
+{
+	background: red;
+	color: white;
+	border: solid 1px red;
+	font-family: Arial;
+	height: 25px;
+	margin-right: 10px;
+}
+
+#div_pending, #div_on_delivery, #div_delivered, #div_cancelled
+{
+	display: none;
+	margin-top: 50px;
+}
+
+#label_s
+{
+	text-align: center;
+	font-family: fantasy;
+}
+

@@ -1,0 +1,37 @@
+body, html
+{
+	margin: 0;
+	width: 100%;
+	background: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+ul
+{
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 40vh;
+	text-align: center;
+	color: white;
+}
+
+p
+{
+	font-family: Arial;
+	font-size: 25px;
+}
+
+button
+{
+     border: solid 1px white;
+     width: 150px;
+     height: 25px;
+     background: transparent;
+     color: white;
+}

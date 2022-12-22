@@ -1,0 +1,53 @@
+body, html
+{
+	margin: 0;
+	background: black;
+	color: white;
+	width: 100%;
+}
+
+#tbl_load, #tbl_content
+{  
+	width: 100%;
+	text-align: center;
+	margin-top: 40vh;
+}
+
+#tbl_content
+{  
+	width: 100%;
+	text-align: center;
+	margin-top: 30vh;
+}
+
+#label_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+#load
+{
+	text-align: center;
+	font-family: Arial;
+}
+
+#content
+{
+	color: white;
+	display: none;
+	text-align: center;
+}
+
+#devteam_label
+{
+	font-family: fantasy;
+	color: white;
+	font-size: 40px;
+	/*-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;*/
+    opacity: 0;
+}

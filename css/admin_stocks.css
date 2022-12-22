@@ -1,0 +1,136 @@
+.head
+{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 30px;
+}
+
+.logout
+{
+	float: right;
+}
+
+#products_div
+{
+	width: 100%;
+	display: none;
+}
+
+#brands_div
+{
+	width: 100%;
+	display: none;
+}
+
+#categories_div
+{
+	width: 100%;
+	display: none;
+}
+
+#tbl_products
+{
+	width: 100%;
+}
+
+#tbl_brands
+{
+	width: 100%;
+}
+
+#tbl_categories
+{
+	width: 100%;
+}
+
+#support_products
+{
+	width: 32%;
+	position: fixed;
+	height: 80%;
+	overflow-y: scroll;
+}
+
+#support_brands
+{
+	width: 30%;
+	position: fixed;
+}
+
+#support_categories
+{
+	width: 30%;
+	position: fixed;
+}
+
+#insert_update_products
+{
+	width: 100%;
+	float: left;
+}
+
+#insert_update_brands
+{
+	width: 100%;
+	float: left;
+}
+
+#insert_update_categories
+{
+	width: 100%;
+	float: left;
+}
+
+#label_products
+{
+	font-family: fantasy;
+	font-size: 20px;
+	text-align: center;
+}
+
+#label_brands
+{
+	font-family: fantasy;
+	font-size: 20px;
+	text-align: center;
+}
+
+#label_categories
+{
+	font-family: fantasy;
+	font-size: 20px;
+	text-align: center;
+}
+
+#product_brand, #product_category
+{
+	width: 50%;
+}
+
+.output_table
+{
+	float: right;
+	height: 30%;
+	margin-bottom: 10px;
+	width: 67%;
+	border-radius: 10px;
+}
+
+#image_cat
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+#image_pro
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.td_holders
+{
+	padding-right: 30px;
+}

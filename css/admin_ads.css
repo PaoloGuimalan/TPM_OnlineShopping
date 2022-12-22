@@ -1,0 +1,74 @@
+html
+{
+	height: 100%;
+}
+
+.head
+{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 30px;
+	background-color: beige;
+	padding: 40px;
+}
+
+.logout
+{
+	float: right;
+}
+
+.update_insert_table
+{
+	float: left;
+	height: 30%;
+	width: 100%;
+}
+
+.support_update_insert
+{
+	width: 30%;
+	position: fixed;
+}
+
+.output_table
+{
+	float: right;
+	height: 30%;
+	margin-bottom: 10px;
+	width: 67%;
+	border-radius: 10px;
+}
+
+.tbl
+{
+	width: 100%;
+}
+
+.second_div
+{
+	width: 100%;
+}
+
+#image_ads
+{
+	width: 150px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+#result_ads_active
+{
+	display: none;
+}
+
+#result_ads_inactive
+{
+	display: none;
+}
+
+#label_ads
+{
+	font-family: fantasy;
+	font-size: 20px;
+	text-align: center;
+}
